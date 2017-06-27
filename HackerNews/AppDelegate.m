@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
+#import "StoryStore.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +19,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+
+    UINavigationController *navCon = (UINavigationController *)self.window.rootViewController;
+    ViewController *vc = (ViewController *)navCon.topViewController;
+    vc.storyStore = [StoryStore new];
+
     return YES;
 }
 

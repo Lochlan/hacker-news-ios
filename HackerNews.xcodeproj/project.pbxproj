@@ -14,6 +14,12 @@
 		B2849FE21EFCDFD00041A3F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2849FE11EFCDFD00041A3F5 /* Assets.xcassets */; };
 		B2849FE51EFCDFD00041A3F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2849FE31EFCDFD00041A3F5 /* LaunchScreen.storyboard */; };
 		B2849FF01EFCDFD00041A3F5 /* HackerNewsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2849FEF1EFCDFD00041A3F5 /* HackerNewsTests.m */; };
+		B2849FFC1EFCE2800041A3F5 /* HackerNewsAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = B2849FFB1EFCE2800041A3F5 /* HackerNewsAPI.m */; };
+		B2849FFD1EFCE2800041A3F5 /* HackerNewsAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = B2849FFB1EFCE2800041A3F5 /* HackerNewsAPI.m */; };
+		B284A0001EFCE6F70041A3F5 /* StoryStore.m in Sources */ = {isa = PBXBuildFile; fileRef = B2849FFF1EFCE6F70041A3F5 /* StoryStore.m */; };
+		B284A0011EFCE6F70041A3F5 /* StoryStore.m in Sources */ = {isa = PBXBuildFile; fileRef = B2849FFF1EFCE6F70041A3F5 /* StoryStore.m */; };
+		B284A0041EFCE8420041A3F5 /* Story.m in Sources */ = {isa = PBXBuildFile; fileRef = B284A0031EFCE8420041A3F5 /* Story.m */; };
+		B284A0051EFCE8420041A3F5 /* Story.m in Sources */ = {isa = PBXBuildFile; fileRef = B284A0031EFCE8420041A3F5 /* Story.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +46,12 @@
 		B2849FEB1EFCDFD00041A3F5 /* HackerNewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackerNewsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2849FEF1EFCDFD00041A3F5 /* HackerNewsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HackerNewsTests.m; sourceTree = "<group>"; };
 		B2849FF11EFCDFD00041A3F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2849FFA1EFCE2800041A3F5 /* HackerNewsAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HackerNewsAPI.h; sourceTree = "<group>"; };
+		B2849FFB1EFCE2800041A3F5 /* HackerNewsAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HackerNewsAPI.m; sourceTree = "<group>"; };
+		B2849FFE1EFCE6F70041A3F5 /* StoryStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoryStore.h; sourceTree = "<group>"; };
+		B2849FFF1EFCE6F70041A3F5 /* StoryStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoryStore.m; sourceTree = "<group>"; };
+		B284A0021EFCE8420041A3F5 /* Story.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Story.h; sourceTree = "<group>"; };
+		B284A0031EFCE8420041A3F5 /* Story.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Story.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +102,12 @@
 				B2849FE31EFCDFD00041A3F5 /* LaunchScreen.storyboard */,
 				B2849FE61EFCDFD00041A3F5 /* Info.plist */,
 				B2849FD51EFCDFD00041A3F5 /* Supporting Files */,
+				B2849FFA1EFCE2800041A3F5 /* HackerNewsAPI.h */,
+				B2849FFB1EFCE2800041A3F5 /* HackerNewsAPI.m */,
+				B2849FFE1EFCE6F70041A3F5 /* StoryStore.h */,
+				B2849FFF1EFCE6F70041A3F5 /* StoryStore.m */,
+				B284A0021EFCE8420041A3F5 /* Story.h */,
+				B284A0031EFCE8420041A3F5 /* Story.m */,
 			);
 			path = HackerNews;
 			sourceTree = "<group>";
@@ -213,9 +231,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B284A0001EFCE6F70041A3F5 /* StoryStore.m in Sources */,
 				B2849FDD1EFCDFD00041A3F5 /* ViewController.m in Sources */,
 				B2849FDA1EFCDFD00041A3F5 /* AppDelegate.m in Sources */,
+				B284A0041EFCE8420041A3F5 /* Story.m in Sources */,
 				B2849FD71EFCDFD00041A3F5 /* main.m in Sources */,
+				B2849FFC1EFCE2800041A3F5 /* HackerNewsAPI.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,6 +245,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B2849FF01EFCDFD00041A3F5 /* HackerNewsTests.m in Sources */,
+				B284A0011EFCE6F70041A3F5 /* StoryStore.m in Sources */,
+				B2849FFD1EFCE2800041A3F5 /* HackerNewsAPI.m in Sources */,
+				B284A0051EFCE8420041A3F5 /* Story.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

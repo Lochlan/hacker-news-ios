@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+@class StoryStore;
 
 @interface ViewController : UIViewController
 
+@property (nonatomic) StoryStore *storyStore;
 
 @end
-

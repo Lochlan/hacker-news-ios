@@ -7,23 +7,14 @@
 //
 
 #import "ViewController.h"
-
-@interface ViewController ()
-
-@end
+#import "StoryStore.h"
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+
+    [self.storyStore fetchStoryByItemId:8863];
 }
-
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
 
 @end
